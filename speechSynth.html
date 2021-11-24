@@ -50,8 +50,7 @@
 
       function render() {
         var shouldShow = ldclient.variation('colored-title', false);
-        shouldShow &&
-          document.querySelector('header > h2').classList.add('red');
+        shouldShow && document.body.classList.add('redheader');
       }
 
       ldclient.on('ready', render);
