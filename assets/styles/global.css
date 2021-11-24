@@ -57,6 +57,10 @@ body.blue>header a {
   text-decoration: none;
 }
 
+.red {
+  color: red;
+}
+
 body>header a:hover {
   border-bottom: 2px solid transparent;
 }
